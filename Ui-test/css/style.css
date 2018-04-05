@@ -1,0 +1,33 @@
+.img{
+    height:100vh;
+    width: 100%;
+    background:url(../image/img2.jpg);
+    /*background: url('../images/header.jpg') no-repeat center center; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.block{
+    height: 100px;
+    width: 100%;
+}
+
+.bg-light{
+    background-color:transparent!important;
+    
+    
+}
+
+.navbar-brand{
+    color: white!important;
+    font-size: 24px;
+}
+
+.nav-link{
+    color:white!important;
+    font-weight: 400;
+    font-size: 22px;
+}
