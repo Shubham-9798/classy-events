@@ -7,7 +7,7 @@ $(document).ready(function(){
 sr.reveal('.scrol-1',{
                origin:'left',
                
-               duration:2000,
+               duration:1500,
                
                 
               });
@@ -16,7 +16,7 @@ sr.reveal('.scrol-1',{
 sr.reveal('.scrol-2',{
   origin:'right',
   
-   duration:2000,
+   duration:1500,
  
     
 });
@@ -26,13 +26,13 @@ sr.reveal('.scrol-2',{
     sr.reveal('.scrol-nav',{
           origin:'bottom',
           
-          duration:2000,
+          duration:1500,
 });
 
 sr.reveal('.about-contant',{
   origin:'top',
   
-  duration:2000,
+  duration:1500,
 });
 
 
