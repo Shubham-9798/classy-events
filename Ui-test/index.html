@@ -15,16 +15,18 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Classy-Events</title>
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|East+Sea+Dokdo|Lobster+Two" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|East+Sea+Dokdo|Lobster+Two|IBM+Plex+Serif|Courgette" rel="stylesheet">
     <!-- reveal js -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <!-- fontawsome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </head>
 <body>
    
     <div class="">
         <div class="img img-fluid">
-                <nav class="navbar navbar-expand-md navbar-light bg-light">
-                        <a class="navbar-brand font-weight-bold" href="#">AryClassyEvents</a>
+                <nav class="navbar navbar-expand-md navbar-light bg-light scrol-nav">
+                        <a class="navbar-brand font-weight-bold" href="index.html">AryClassyEvents</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
@@ -40,10 +42,10 @@
                                     <a class="nav-link" href="#">Team</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">About</a>
+                              <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="index.html">Contact Us</a>
+                              <a class="nav-link" href="#contact">Contact Us</a>
                             </li>
                           </ul>
                         </div>
@@ -57,10 +59,12 @@
         </div>
         
 
-        <div class="about">
+        <div  id="about" class="border-bottom-0">
              <div class="container abt-cont">
+                
                <h2 class="text-center">About</h2>
-              <p class="text-justify mt-4">
+               <p class="text-left mt-4">Hii,</p>
+              <p class="text-justify about-contant">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab deleniti beatae sequi dolore unde quod ut dolorum sit. Harum, sequi. Molestiae minima quam qui facilis esse amet voluptatibus atque? Cupiditate ratione soluta voluptatem debitis. Tenetur atque obcaecati aliquid laborum distinctio voluptas, mollitia eum blanditiis consequatur accusamus nesciunt vel eveniet quia veniam quam, quae dolore quos fuga corrupti, repellendus natus impedit. Explicabo, hic. Nemo repellat aut perspiciatis possimus ratione facere quo laudantium architecto optio quidem necessitatibus consequatur, ut fugiat ipsam atque dolorem, exercitationem mollitia minima at dolore? Consequatur a repellat tenetur delectus, nemo id quasi sunt, voluptates, beatae impedit rerum?
               </p>
               <br>
@@ -68,18 +72,34 @@
              </div>
         </div>
 
-        <div class="contact">
 
+        <div id="contact">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 scrol-1 p-5">
+              <div class="scrol-1 showcase-left">
+                  <img src="image/img1.jpg" style="width:200px;height:200px;border-radius:50%!important;" class="rounded mx-auto d-block" alt="...">
+                  <p class="text-center h4 text-contant pb-0"><span class="h1">AR</span> Classy Events</p>
+                  <p class="text-center">Unveiling Your Imagination</p>
+                </div> 
+                </div>  
+            
+            <div class="col-sm-12 col-md-6 col-lg-6 scrol-2 p-5 text-center">
+              <div class="scrol-2 showcase-mid">
+                  <h1 class="text-contant">Ritesh kumar</h1>
+                  <h3 class="mt-2"><i class="fas fa-envelope-square fa-lg"></i><span class="font-weight-normal ml-3">arclassyevents@gmail.com</span></h3>
+                  <h3 class="mt-2"><i class="fab  fa-lg fa-facebook-square"></i><span class="font-weight-normal ml-3">facebook@fb.com</span></h3>
+                  <h3 class="mt-2"><i class="fab fa-lg  fa-twitter-square"></i><span class="font-weight-normal ml-3">twiter@tw.com</span></h3>
+                  
+                   
+              </div> 
+                  </div> 
+
+ 
+          </div>
+            
         </div>
 
-        <!-- <div class="row">
-
-            <div class="col-12 col-md-12 col-sm-6">
-                  
-            </div>
-
-            
-        </div> -->
+ 
 
 
 
@@ -114,5 +134,8 @@
         
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+
+
+        <script src="js/j1.js"></script>     
+        </body>
 </html>
