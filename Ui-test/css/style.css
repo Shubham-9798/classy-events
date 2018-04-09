@@ -1,5 +1,10 @@
 body{
- overflow-x: hidden;
+
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* logo */
@@ -13,6 +18,7 @@ body{
     top:0;
     z-index: 999;
     width: 100%;
+    background-color:rgba(255, 255, 255, 0.836)!important;
 }
 
 .img{
@@ -37,7 +43,7 @@ body{
 }
 
 .bg-light{
-    background-color:rgba(255, 255, 255, 0.836)!important;
+  
     
     
 }
@@ -149,6 +155,7 @@ body{
  
 .pk{
     background: rgba(0,0,0,.6);
+   
 }
 
 /* footer */
