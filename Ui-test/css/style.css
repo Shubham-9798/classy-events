@@ -52,12 +52,12 @@ body{
 
 .navbar-brand{
     /* color: white!important; */
-    color:rgb(88, 0, 136)!important;
+    color:rgb(15, 11, 17)!important;
 
-    font-size: 30px;
+    font-size: 26px;
     
-    font-family: 'Bangers', cursive;
-    letter-spacing: 2px;
+    font-family: sarif;
+    
     font-weight: bold;
 }
 
