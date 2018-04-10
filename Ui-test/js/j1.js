@@ -36,6 +36,23 @@ sr.reveal('.about-contant',{
 });
 
 
+$("#event").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#events").offset().top
+  }, 1000);
+
+});
+ 
+
+  // $(window).scroll(function() {
+  //   if ($(document).scrollTop() > 50) {
+  //     $(".bg-light").css("background-color","rgba(255, 255, 255, 0.836)!important");
+  //   } else {
+  //     $(".bg-light").css("background-color","transparent!important");
+  //   }
+  // });
+
+
 
 
 

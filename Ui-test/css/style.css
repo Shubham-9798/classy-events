@@ -19,6 +19,8 @@ body{
     z-index: 999;
     width: 100%;
     background-color:rgba(255, 255, 255, 0.836)!important;
+    /* background-color: transparent!important; */
+    
 }
 
 .img{
@@ -42,17 +44,13 @@ body{
     width: 100%;
 }
 
-.bg-light{
-  
-    
-    
-}
+
 
 
 
 .navbar-brand{
-    /* color: white!important; */
-    color:rgb(15, 11, 17)!important;
+    color: white!important;
+    color:rgba(100, 17, 24, 0.678)!important;
 
     font-size: 26px;
     
@@ -62,8 +60,8 @@ body{
 }
 
 .nav-link{
-    /* color:white!important; */
-    color:rgb(14, 13, 13)!important;
+    color:white!important;
+    color:rgba(44, 9, 9, 0.801)!important;
     font-weight: 400;
     font-size: 22px;
 }
