@@ -18,8 +18,9 @@ body{
     top:0;
     z-index: 999;
     width: 100%;
-    background-color:rgba(255, 255, 255, 0.836)!important;
-    /* background-color: transparent!important; */
+    /* background-color:rgba(255, 255, 255, 0.836)!important; */
+    background-color: transparent!important;
+    
     
 }
 
@@ -37,6 +38,9 @@ body{
     position: relative;
 }
 
+#gallery{
+    background-color: black;
+}
 
 
 .block{
@@ -44,6 +48,11 @@ body{
     width: 100%;
 }
 
+.galley{
+    width: 100%;
+    
+
+}
 
 
 
@@ -187,6 +196,16 @@ body{
    
 }
 
+.logo{
+    width:300px;
+    height: auto;
+    z-index:999;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
 @media only screen and (max-width: 540px){
     .img{
         background-image: url(img1.jpg)
@@ -201,6 +220,10 @@ body{
 
     .links{
         padding-bottom: 7px;
+    }
+
+    .logo{
+        display: none;
     }
 
 }
