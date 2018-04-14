@@ -35,10 +35,32 @@ $(document).ready(function(){
 //   duration:1500,
 // });
 
+$("#about").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#abouts").offset().top
+  }, 1000);
+
+});
 
 $("#event").click(function() {
   $('html, body').animate({
       scrollTop: $("#events").offset().top
+  }, 1000);
+
+});
+
+
+
+$("#contact").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#contacts").offset().top
+  }, 1000);
+
+});
+
+$("#gallery").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#gallerys").offset().top
   }, 1000);
 
 });
