@@ -14,9 +14,9 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Classy-Events</title>
+    <title>Ar Classy Events</title>
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Bangers|East+Sea+Dokdo|Lobster+Two|IBM+Plex+Serif|Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Bangers|East+Sea+Dokdo|Lobster+Two|Playfair+Display|IBM+Plex+Serif|Courgette" rel="stylesheet">
     <!-- reveal js -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!-- fontawsome -->
@@ -29,26 +29,31 @@
     
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
          
-                    <a class="navbar-brand" href="#"> <p class="text-center h4 text-contant pb-0 mb-0"><span class="h1">AR</span> Classy Events</p></a>
-           
-              
+                <!--     <a class="navbar-brand" href="index.htm"> <p class="text-center h4 text-contant pb-0 mb-0"><span class="h1">AR</span> Classy Events</p></a> -->
+
+                   
+          
+                    <a class="navbar-brand" href="index.html"> 
+                           <span class="">AR Classy Events</span>
+                    </a>
+          
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
                           <ul class="navbar-nav">
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Gallery</a>
+                              <a class="nav-link" id="gal" href="javascrpt:void(0)">Gallery</a>
                             </li>
 
                             <li class="nav-item">
                                     <a class="nav-link" id="event" href="javascrpt:void(0)">Events</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#about">About</a>
+                              <a class="nav-link" id="abt" href="javascrpt:void(0)">About</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#contact">Contact Us</a>
+                              <a class="nav-link" id="cont" href="javascrpt:void(0)">Contact Us</a>
                             </li>
                           </ul>
                         </div>
@@ -88,6 +93,7 @@
      
               <div class="carousel-inner">
         
+
                 <div class="carousel-item active">
                   <img class="d-block w-100" src="image/img1.jpg" alt="First slide">
                 </div>
@@ -97,6 +103,11 @@
                 <div class="carousel-item">
                   <img class="d-block w-100" src="image/birthday.jpg" alt="Third slide">
                 </div>
+             
+                             <div class="carousel-item">
+                  <img class="d-block w-100" src="image/new-2.jpg" alt="Third slide">
+                </div>
+
               </div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -150,7 +161,7 @@
         <!-- </div> -->
 
 
-   <div class="img1" >
+   <div class="parallax-window" data-parallax="scroll" data-image-src="image/ig4.jpg">
         <div id="events" >
           <div class="row text-center pt-2 pb-4">
               <div class="col-sm-12 pt-3">
@@ -159,12 +170,12 @@
                 <br>
               </div>
 
-              <div class="col-sm-12 col-md-4 event-list">School college functions</div>
-              <div class="col-sm-12 col-md-4 event-list">Surprise plan</div>
-              <div class="col-sm-12 col-md-4 event-list">Corporate parties</div>
-              <div class="col-sm-12 col-md-4 event-list">Special birthday celebration</div>
-              <div class="col-sm-12 col-md-4 event-list">Celebrity Booking</div>
-              <div class="col-sm-12 col-md-4 event-list">ATL & BTL promotion</div>
+              <div class="col-sm-12 col-md-12 event-list">School college functions</div>
+              <div class="col-sm-12 col-md-12 event-list">Surprise plan</div>
+              <div class="col-sm-12 col-md-12 event-list">Corporate parties</div>
+              <div class="col-sm-12 col-md-12 event-list">Special birthday celebration</div>
+              <div class="col-sm-12 col-md-12 event-list">Celebrity Booking</div>
+              <div class="col-sm-12 col-md-12 event-list">ATL & BTL promotion</div>
                   
           </div>
         </div>
@@ -174,6 +185,9 @@
      <div id="gallery">
        <div class="row">
         
+        <div class="col-md-12 col-sm-12 text-center pt-2">
+          <span class="gall">Former Events</span>
+        </div>
           <div class="col-md-3 col-sm-6 p-4">
            <img src="image/e-img1.jpeg" class="img-fluid rounded" alt="image-gallery">
          </div>
@@ -181,7 +195,7 @@
            <img src="image/e-img2.jpeg" class="img-fluid rounded" alt="image-gallery">
          </div>
          <div class="col-md-3 col-sm-6 p-4">
-           <img src="image/e-img3.jpeg" class="img-fluid rounded" alt="image-gallery">
+           <img src="image/e-img6.jpeg" class="img-fluid rounded" alt="image-gallery">
          </div>
          <div class="col-md-3 col-sm-6 p-4">
            <img src="image/e-img4.jpeg" class="img-fluid rounded" alt="image-gallery">
@@ -196,7 +210,7 @@
                <h2 class="text-center">About</h2>
                <p class="text-left mt-4">Hii,</p>
               <p class="text-justify about-contant">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab deleniti beatae sequi dolore unde quod ut dolorum sit. Harum, sequi. Molestiae minima quam qui facilis esse amet voluptatibus atque? Cupiditate ratione soluta voluptatem debitis. Tenetur atque obcaecati aliquid laborum distinctio voluptas, mollitia eum blanditiis consequatur accusamus nesciunt vel eveniet quia veniam quam, quae dolore quos fuga corrupti, repellendus natus impedit. Explicabo, hic. Nemo repellat aut perspiciatis possimus ratione facere quo laudantium architecto optio quidem necessitatibus consequatur, ut fugiat ipsam atque dolorem, exercitationem mollitia minima at dolore? Consequatur a repellat tenetur delectus, nemo id quasi sunt, voluptates, beatae impedit rerum?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab deleniti beatae sequi dolore unde quod ut dolorum sit. Harum, sequi. Molestiae minima quam qui facilis esse amet architecto optio quidem necessitatibus consequatur, ut fugiat ipsam atque dolorem, exercitationem mollitia minima at dolore? Consequatur a repellat tenetur delectus, nemo id quasi sunt, voluptates, beatae impedit rerum?
               </p>
               <br>
               <h4>wish u best of luck &#x263A</h4>
@@ -209,9 +223,11 @@
             <!-- scrol-1 -->
             <div class="col-sm-12 col-md-6 col-lg-6 scrol-1 p-5">
               <div class="scrol-1 showcase-left">
-                  <img src="image/img1.jpg" style="width:200px;height:200px;border-radius:50%!important;" class="rounded mx-auto d-block" alt="...">
-                  <p class="text-center h4 text-contant pb-0"><span class="h1">AR</span> Classy Events</p>
-                  <p class="text-center">Unveiling Your Imagination</p>
+                  <img src="image/logo-com-1.png"  class="img-fluid rounded mx-auto d-block" alt="...">
+
+                <!--   <p class="text-center h4 text-contant pb-0"><span class="h1">AR</span> Classy Events</p> -->
+
+                 
                 </div> 
             </div>  
             <!-- scrol-2 animation -->
@@ -219,21 +235,20 @@
               <div class="scrol-2  showcase-right text-center">
                   <h1 class="text-contant">Ritesh kumar</h1>
                   <h4 class="mt-2"><i class="fas fa-envelope-square fa-lg"></i><span class="font-weight-normal ml-3">arclassyevents@gmail.com</span></h4>
-                  <h4 class="mt-2"><i class="fab  fa-lg fa-facebook-square"></i><span class="font-weight-normal ml-3">9685566195</span></h4>
+                  <h4 class="mt-2"><i class="fas fa-phone fa-lg"></i><span class="font-weight-normal ml-3">9685566195</span></h4>
                    <br>
                   
                <div class="d-md-inline-flex">
-                  <div class="links"><i class="fab  fa-lg fa-facebook-square"></i><span  class="ml-2">twiter<span></div>
-                  <div class="links"><i class="fas fa-envelope-square fa-lg"></i><span class="ml-2">facebook<span></div>
-                  <div class="links"><i class="fas fa-envelope-square fa-lg"></i><span class="ml-2">instagram<span></div>
+                  <div class="links"><i class="fab  fa-lg fa-facebook-square"></i><span  class="ml-2">Facebook<span></div>
+                  <div class="links"><i class="fab fa-twitter fa-lg"></i><span class="ml-2">Twitter<span></div>
+                  <div class="links"><i class="fab fa-instagram fa-lg"></i><span class="ml-2">Instagram<span></div>
                   </div>
               </div> 
            </div> 
   
            <div class="footer-copyright text-center">
-              <span class="lead">
-              © 2018 Copyright: <br> <a href="arclassyevents@gmail.com" class="footer-link">arclassyevents@gmail.com<a>
-             
+              <span class="lead"><strong>
+              © 2018 Copyright: reserverd by AR</strong>. Designed by s_kapoor
               </span>
             </div>
 
@@ -276,6 +291,8 @@
          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
+        <script src="js/parallax.min.js"></script>     
+                
         <script src="js/j1.js"></script>     
         </body>
 </html>

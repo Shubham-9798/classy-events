@@ -35,9 +35,9 @@ $(document).ready(function(){
 //   duration:1500,
 // });
 
-$("#about").click(function() {
+$("#abt").click(function() {
   $('html, body').animate({
-      scrollTop: $("#abouts").offset().top
+      scrollTop: $("#about").offset().top
   }, 1000);
 
 });
@@ -51,16 +51,16 @@ $("#event").click(function() {
 
 
 
-$("#contact").click(function() {
+$("#cont").click(function() {
   $('html, body').animate({
-      scrollTop: $("#contacts").offset().top
+      scrollTop: $("#contact").offset().top
   }, 1000);
 
 });
 
-$("#gallery").click(function() {
+$("#gal").click(function() {
   $('html, body').animate({
-      scrollTop: $("#gallerys").offset().top
+      scrollTop: $("#gallery").offset().top
   }, 1000);
 
 });
