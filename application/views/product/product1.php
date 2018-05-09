@@ -1,1 +1,1 @@
- <h2>product name</h2>
+ <h2>product name details method</h2>

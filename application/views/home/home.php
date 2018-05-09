@@ -25,7 +25,7 @@ echo "shu ";
 
 
 
-<div><a href="<?php base_url();?>login">button</a></div>
+<div><a href="<?php base_url();?>login">login</a></div>
 
-<div><a href="<?php base_url();?>Product">Product</a></div>
-<div><a href="<?php base_url();?>Product/details">Productdetails</a></div>
+<div><a href="<?php base_url();?>product">Product</a></div>
+<div><a href="<?php base_url();?>product/details">Productdetails</a></div>
